@@ -1,0 +1,18 @@
+spring:
+  r2dbc:
+    url: r2dbc:mysql://127.0.0.1:3306/ezy
+    username: root
+    password: 123456
+
+
+
+
+
+logging:
+  level:
+    org:
+      springframework:
+        data:
+          r2dbc:
+            core:
+              DefaultDatabaseClient: DEBUG
